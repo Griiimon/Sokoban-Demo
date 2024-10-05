@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://vc7pdjxr8wrq"]
+
+[ext_resource type="Texture2D" uid="uid://byv0poepxlj4" path="res://textures/crate.png" id="1_lapus"]
+[ext_resource type="Script" path="res://crate/crate.gd" id="2_366kq"]
+
+[node name="Crate" type="Sprite2D"]
+position = Vector2(208, 112)
+texture = ExtResource("1_lapus")
+script = ExtResource("2_366kq")
